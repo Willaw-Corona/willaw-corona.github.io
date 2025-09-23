@@ -7,6 +7,12 @@ body {
     font-family: 'Ubuntu', ubuntu-medium;
 }
 
+a {
+    color: #0047ab;
+    text-decoration: none;
+    font-family: 'Ubuntu', ubuntu-regular;
+}
+
 h1 {
     color: red;
     text-align: center;
