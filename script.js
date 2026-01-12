@@ -1,18 +1,4 @@
-// ¿Cuando sacan a las ratas Mugrenistas de Méjico?
-
-/**
- * Text randomiser utility
- * - pickRandom(items): returns a random item from array
- * - TextRandomiser(options): creates an instance that can rotate texts into a DOM element
- *
- * Options:
- *  - selector: DOM selector (string) or element to write text into
- *  - texts: array of strings to choose from
- *  - interval: ms between swaps (default 2000)
- *  - shuffle: boolean, whether to shuffle the list first (default true)
- *  - repeat: boolean, whether to repeat items after exhausting (default true)
- */
-
+// btw i vibe coded this, i dunno JavaScript
 function pickRandom(arr) {
 	if (!Array.isArray(arr) || arr.length === 0) return undefined;
 	return arr[Math.floor(Math.random() * arr.length)];
@@ -155,6 +141,7 @@ if (typeof window !== 'undefined' && typeof document !== 'undefined') {
                 'You might be alive if you\'re reading this',
                 'The font name is called "Ubuntu" so you know.',
                 'I want to eat some independence of the north fr fr.',
+				'4kstore.com',
 			],
 			interval: 2500,
 			shuffle: true,
